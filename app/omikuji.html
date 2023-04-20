@@ -19,26 +19,25 @@
 
 
 
+
 <main role="main" class="main">
-  <ul class="top-navi">
-      <li>
-            <a href="app/marubatsu.html">
-                <span class="material-symbols-rounded">arrow_right</span>マルバツゲーム
-            </a>
-      </li>
-      <li>
-          <a href="app/card.html">
-              <span class="material-symbols-rounded">arrow_right</span>当たりのカードを引くゲーム
-          </a>
-      </li>
-      <li>
-          <a href="app/omikuji.html">
-              <span class="material-symbols-rounded">arrow_right</span>おみくじ
-          </a>
-      </li>
-  </ul>
-  <p class="kome">※jsの練習のために開設した個人サイトです。</p>
+    <section>
+        <h1 class="ttl-h2">今日の運勢</h1>
+        <img src="/assets/images/1.png" alt="" id="img" class="img">
+        <p id="result" class="omikuji-result">大吉</p>
+    </section>
+    <button id="btn" class="omikuji-btn">おみくじを引く</button>
 </main>
+
+
+<div class="btn__top">
+    <a href="/">
+        <span class="material-symbols-rounded">arrow_circle_right</span>
+        <span class="btn__top-text">back to top</span>
+    </a>
+</div>
+
+<script src="/assets/js/omikuji.js"></script>
 
 
 
