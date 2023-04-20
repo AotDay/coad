@@ -1,0 +1,83 @@
+body {
+  background-color: #efefef;
+}
+
+.main {
+  background-color: #fff;
+  width: 90vw;
+  max-width: 500px;
+  margin: 5vw auto 0;
+  padding: 5vw;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+table {
+  border-spacing: 0;
+  border-bottom: solid 1px #000;
+  border-right: solid 1px #000;
+}
+table td {
+  border-top: solid 1px #000;
+  border-left: solid 1px #000;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+table td:hover {
+  background-color: #eee;
+}
+
+.marubatsu-ttl {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.marubatsu {
+  margin: 0 auto;
+}
+.marubatsu td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.cardlist {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cardlist .card {
+  display: flex;
+  border-radius: 5px;
+  width: 80px;
+  height: 100px;
+  margin-right: 20px;
+  border: solid 1px #999;
+  box-shadow: rgb(180, 180, 180) 5px 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#shuffle {
+  display: block;
+  padding: 0.3em 2em;
+  margin: 0 auto;
+}
+#shuffle:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=main.css.map */
