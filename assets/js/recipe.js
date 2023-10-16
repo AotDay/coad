@@ -1,0 +1,1 @@
+"use strict";function setNum(t){var t=parseInt(t.target.value),e=t,n=.5*t,o=100*t;document.getElementById("i0").textContent=e,document.getElementById("i1").textContent=n,document.getElementById("i2").textContent=o,document.getElementById("num").textContent=t}window.onload=function(){document.getElementById("setNum").onchange=setNum};
