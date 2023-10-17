@@ -1,0 +1,1 @@
+$(function(){$hover_img=$(".hoverimg"),$(".hoverimg__btn li").hover(function(){var s=$(".hoverimg__btn li").index(this);$(this).addClass("current"),$hover_img.each(function(){var i=$(this);i.find("li").removeClass("is-out"),$("li.is-show").addClass("is-out").removeClass("is-show"),$("li",i).eq(s).addClass("is-show")})},function(){$(this).removeClass("current")})});
